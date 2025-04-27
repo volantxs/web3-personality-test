@@ -17,7 +17,7 @@ const TestContainer: React.FC<TestContainerProps> = ({ onStartTest, onGoHome, is
     return (
       <div className="flex flex-col items-center justify-center h-[calc(100vh-60px)] w-full max-w-[1000px] mx-auto px-2 overflow-hidden">
   <h1
-    className="text-[5.5vw] sm:text-3xl md:text-4xl mb-5 text-center mb-0 pixel-heading"
+    className="text-[5.5vw] sm:text-3xl md:text-2xl mb-5 text-center mb-0 pixel-heading"
     style={{ color: "#000000", lineHeight: 1.1, wordBreak: "break-word" }}
   >
     What is your web3 type anon?
@@ -26,13 +26,13 @@ const TestContainer: React.FC<TestContainerProps> = ({ onStartTest, onGoHome, is
   <img
   src="/images/avatar.gif"
   alt="Avatar The Last Airbender"
-  className="sm:p-8 md:p-8 sm:w-[400px] md:w-[600px] mx-auto"
+  className="sm:p-8 md:p-8 sm:w-[400px] md:w-[500px] mx-auto"
   style={{ display: "block" }}
 />
   {/* Buttons */}
   <div className="flex flex-row gap-3 justify-center w-full max-w-[550px] mt-5">
     <button
-      className="py-3 w-full text-[6.5vw] sm:text-3xl md:text-4xl bg-[#a8ff94] text-[#000000] rounded-lg shadow-lg hover:bg-[#000000] hover:text-[#ffffff] transition-all"
+      className="py-3 w-full  max-w-[450px] text-[4vw] sm:text-3xl md:text-2xl bg-[#a8ff94] text-[#000000] rounded-lg shadow-lg hover:bg-[#000000] hover:text-[#ffffff] transition-all"
       style={{ minWidth: 0 }}
       onClick={onStartTest}
     >

@@ -31,7 +31,7 @@ const WallOfAnon: React.FC = () => {
     const [showButtons, setShowButtons] = useState(true);
   
     useEffect(() => {
-      const timer = setTimeout(() => setShowPopup(true), 3000);
+      const timer = setTimeout(() => setShowPopup(true), 4000);
       return () => clearTimeout(timer);
     }, []);
   
@@ -43,7 +43,7 @@ const WallOfAnon: React.FC = () => {
       };
       
       const handleCopyLink = () => {
-        navigator.clipboard.writeText(window.location.href);
+        navigator.clipboard.writeText("https://web3-personality-test.vercel.app/");
         setCopied(true);
         setTimeout(() => setCopied(false), 1500); // Reset after 1.5s
       };
@@ -104,7 +104,7 @@ const WallOfAnon: React.FC = () => {
                 className="px-6 py-2 rounded bg-[#a6f894] text-[#000000] hover:bg-[#000000] hover:text-[#ffffff] transition-all"
                 onClick={handleBusiness}
               >
-                Coffee on you {';)'}
+                I'm in {';)'}
               </button>
               <button
                 className="px-6 py-2 rounded bg-[#a6f894] text-[#000000] hover:bg-[#000000] hover:text-[#ffffff] transition-all"

@@ -31,14 +31,14 @@ const secondaryArchetype = nonZeroArchetypes[1];
           alt={primaryArchetype.name}
           className='m-auto sm:max-w-[300px] md:max-w-[500px]' 
         />
-        <h3 className="sm:text-lg md:text-xl mt-6">Screenshot and share on X anon!</h3>
+        <h3 className="sm:text-lg md:text-2xl mt-6 mb-0">Screenshot & share on X anon!</h3>
       </div>
-      <div className="button-row" style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+      <div className="button-row mt-0" style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
         <button
       onClick={() => navigate("/wall-of-anon")}
       className='sm:text-2xl md:text-2xl w-full flex-1 px-3 mx-8 py-3 text-[5vw] bg-[#a6f894] text-[#000000] rounded-lg shadow-lg hover:bg-[#000000] hover:text-[#ffffff] transition-all'
       // style={{ padding: '0.5rem 1.5rem', fontSize: '1rem' }}
-    >Check Others</button>
+    >Check Other Cards</button>
       </div>
     </div>
   );

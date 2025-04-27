@@ -358,8 +358,8 @@ export interface ArchetypeScore {
             weight: 2
           },
           {
-            text: "Shilling unasked advices to every stranger. Someone’s gotta teach them .",
-            archetypes: { primary: "MEMECOIN_SUMMONER", secondary: "CT_ADDICT" },
+            text: "Crypto conferences suck.  My flight was canceled. Pigs fly... ",
+            archetypes: { primary: "BUILDER", secondary: "PANIC_SELLER" },
             weight: 1
           },
           {

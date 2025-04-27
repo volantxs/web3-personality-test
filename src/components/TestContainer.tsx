@@ -32,11 +32,11 @@ const TestContainer: React.FC<TestContainerProps> = ({ onStartTest, onGoHome, is
   {/* Buttons */}
   <div className="flex flex-row gap-3 justify-center w-full max-w-[550px] mt-5">
     <button
-      className="py-3 w-full  max-w-[450px] text-[4vw] sm:text-3xl md:text-2xl bg-[#a8ff94] text-[#000000] rounded-lg shadow-lg hover:bg-[#000000] hover:text-[#ffffff] transition-all"
+      className="py-3 w-full  max-w-[450px] text-[5.5vw] sm:text-3xl md:text-2xl bg-[#a8ff94] text-[#000000] rounded-lg shadow-lg hover:bg-[#000000] hover:text-[#ffffff] transition-all"
       style={{ minWidth: 0 }}
       onClick={onStartTest}
     >
-      Find My Card
+      Find My Card (beta-access)
     </button>
   </div>
 </div>

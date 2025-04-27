@@ -16,16 +16,16 @@ const Home = () => {
   const handleGoHome = () => setIsStarted(false);
 
   return (
-    <div className="h-screen w-screen flex flex-col overflow-hidden bg-gradient-to-b from-white to-secondary/20">
+    <div className="min-h-screen w-screen flex flex-col bg-gradient-to-b from-white to-secondary/20">
       <header className="flex-1 flex flex-col justify-center items-center w-full px-2 sm:px-4">
         <TestProvider>
           <TestContainer onStartTest={handleStartTest} onGoHome={handleGoHome} isStarted={isStarted} />
         </TestProvider>
       </header>
-      <footer className="w-full text-center text-muted-foreground sm:text-xl md:text-2xl ">
+      <footer className="w-full text-center text-muted-foreground sm:!text-lg md:text-2xl ">
         <p>test made by <a href="https://x.com/0x0Kyoshi" className="underline" target="_blank" rel="noopener noreferrer">0x0Kyoshi</a></p>
         <p>
-        powered by coffee and memes. gif credit goes to their creators.
+        powered by coffee. gifs ownership to their creators
         </p>
       </footer>
     </div>

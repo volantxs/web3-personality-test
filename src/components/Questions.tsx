@@ -34,8 +34,8 @@ const Question: React.FC<{ onGoHome: () => void }> = ({ onGoHome }) => {
   };
 
   return (
-    <Card className="w-full max-w-lg sm:max-w-xl mx-auto animate-fade-in">
-      <CardContent className="pt-6">
+    <Card className="my-2 mx-auto animate-fade-in w-full max-w-[400px] sm:max-w-[500px] md:max-w-[650px]">
+      <CardContent className="pt-6 ">
         <h3 className="text-2xl font-medium mb-2">{currentQuestion.chapter}</h3>
         <p className="text-xl mb-4">{currentQuestion.text}</p>
 

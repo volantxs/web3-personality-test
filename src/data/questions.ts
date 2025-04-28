@@ -79,7 +79,7 @@ export interface ArchetypeScore {
           },
           {
             text: "I'm going to screenshot this chaos and make it my Twitter header.",
-            archetypes: { "primary": "LARP_LORD", "secondary": "CT_ADDICT" },
+            archetypes: { "primary": "CT_ADDICT", "secondary": "LARP_LORD" },
             weight: 1.5
           },
           {
@@ -145,7 +145,7 @@ export interface ArchetypeScore {
           },
           {
             text: "Go on to write walls about all problems in crypto faced by noobs.",
-            archetypes: { "primary": "DAO_DIPLOMAT", "secondary": "PANIC_SELLER" },
+            archetypes: { "primary": "SHITPOSTER", "secondary": "PANIC_SELLER" },
             weight: 1
           }
         ]
@@ -201,7 +201,7 @@ export interface ArchetypeScore {
           },
           {
             text: "I’m unfollowing everyone. I don't need stupidity on my TL. ",
-            archetypes: { "primary": "BAGHOLDER", "secondary": "AIRDROP_FOMOER" },
+            archetypes: { "primary": "BAGHOLDER", "secondary": "BUILDER" },
             weight: 1
           }
         ]
@@ -224,7 +224,7 @@ export interface ArchetypeScore {
           },
           {
             text: "Who cares...It's another JPEG anyways.",
-            archetypes: { "primary": "DAO_DIPLOMAT", "secondary": "PANIC_SELLER" },
+            archetypes: { "primary": "SHITPOSTER", "secondary": "PANIC_SELLER" },
             weight: 1.5
           },
           {
@@ -247,7 +247,7 @@ export interface ArchetypeScore {
           },
           {
             text: "It’s like Facebook, but for people who actually want privacy.",
-            archetypes: { "primary": "ONCHAIN_MAXIMALIST", "secondary": "LARP_LORD" },
+            archetypes: { "primary": "ONCHAIN_MAXIMALIST", "secondary": "DEFI_DEGEN" },
             weight: 1
           },
           {
@@ -285,7 +285,7 @@ export interface ArchetypeScore {
           },
           {
             text: "What if we tweak this...and that and raise money for a whole bunch of nothing new project with a different name?",
-            archetypes: { "primary": "LARP_LORD", "secondary": "IDEA_GUY" },
+            archetypes: { "primary": "IDEA_GUY", "secondary": "LARP_LORD" },
             weight: 2
           }
         ]
@@ -303,7 +303,7 @@ export interface ArchetypeScore {
           },
           {
             text: "I’m going to create a multimillion dollar company. ALONE. It’s all about marketing anyways.",
-            archetypes: { "primary": "EXPLORER", "secondary": "LARP_LORD" },
+            archetypes: { "primary": "IDEA_GUY", "secondary": "EXPLORER" },
             weight: 1.5
           },
           {
@@ -369,7 +369,7 @@ export interface ArchetypeScore {
           },
           {
             text: "Just here for the free swag and afterparties. Lessgourrr.",
-            archetypes: { primary: "SHITPOSTER", secondary: "LARP_LORD" },
+            archetypes: { primary: "SHITPOSTER", secondary: "AIRDROP_FOMOER" },
             weight: 2
           }
         ]

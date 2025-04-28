@@ -20,12 +20,12 @@ const ResultsPage = () => {
   const primaryArchetype = nonZeroArchetypes[0];
 const secondaryArchetype = nonZeroArchetypes[1];
   return (
-    <div className="result-container  text-center mt-8">
+    <div className="result-container text-center mt-8">
       <h1 className="sm:text-3xl md:text-4xl font-bold">*drumrolling*</h1>
       {secondaryArchetype && (
         <h3 className="sm:text-xl md:text-2xl mt-2">ps...your alter ego is {secondaryArchetype.name}</h3>
       )}
-      <div className="image-container m-10" >
+      <div className="image-container mb-5" >
         <img
           src={`/images/${primaryArchetype.key}.jpg`}
           alt={primaryArchetype.name}
@@ -33,10 +33,10 @@ const secondaryArchetype = nonZeroArchetypes[1];
         />
         <h3 className="sm:text-lg md:text-2xl mt-6 mb-0">Screenshot & share on X anon!</h3>
       </div>
-      <div className="button-row mt-0" style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+      <div className="button-row mb-2 flex">
         <button
       onClick={() => navigate("/wall-of-anon")}
-      className='sm:text-2xl md:text-2xl w-full flex-1 px-3 mx-8 py-3 text-[5vw] bg-[#a6f894] text-[#000000] rounded-lg shadow-lg hover:bg-[#000000] hover:text-[#ffffff] transition-all'
+      className='sm:text-2xl md:text-2xl w-full flex-1 px-3 py-3 text-[5vw] bg-[#a6f894] text-[#000000] rounded-lg shadow-lg hover:bg-[#000000] hover:text-[#ffffff] transition-all'
       // style={{ padding: '0.5rem 1.5rem', fontSize: '1rem' }}
     >Check Other Cards</button>
       </div>

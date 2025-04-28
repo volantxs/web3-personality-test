@@ -34,7 +34,19 @@ const Question: React.FC<{ onGoHome: () => void }> = ({ onGoHome }) => {
   };
 
   return (
-    <Card className="my-2 mx-auto animate-fade-in w-full max-w-[400px] sm:max-w-[500px] md:max-w-[650px]">
+    <div>
+      <div className="fixed top-0 left-0 w-full z-50 flex justify-center">
+  <div className="backdrop-blur-md bg-white/30 w-full max-w-[650px] h-6 flex items-center px-4">
+    <div className="w-full bg-gray-300 rounded-full h-2 overflow-hidden">
+      <div
+        className="bg-green-400 h-2 transition-all duration-300 ease-in-out"
+        style={{ width: `${((currentQuestionIndex + 1) / totalQuestions) * 100}%` }}
+      />
+    </div>
+  </div>
+</div>
+
+<Card className="my-2 mx-auto animate-fade-in w-full max-w-[400px] sm:max-w-[500px] md:max-w-[650px]">
       <CardContent className="pt-6 ">
         <h3 className="text-2xl font-medium mb-2">{currentQuestion.chapter}</h3>
         <p className="text-xl mb-4">{currentQuestion.text}</p>
@@ -72,6 +84,8 @@ const Question: React.FC<{ onGoHome: () => void }> = ({ onGoHome }) => {
         </div>
       </CardContent>
     </Card>
+    </div>
+    
   );
 };
 

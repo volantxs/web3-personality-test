@@ -117,7 +117,7 @@ export interface ArchetypeScore {
           },
           {
             text: "I’m cutting losses. Let’s get out of here before it gets worse.",
-            archetypes: { "primary": "PANIC_SELLER", "secondary": "EXPLORER" },
+            archetypes: { "primary": "PANIC_SELLER", "secondary": "LAUNCHPAD_HOPPER" },
             weight: 1.5
           }
         ]
@@ -224,7 +224,7 @@ export interface ArchetypeScore {
           },
           {
             text: "Who cares...It's another JPEG anyways.",
-            archetypes: { "primary": "SHITPOSTER", "secondary": "PANIC_SELLER" },
+            archetypes: { "primary": "EXPLORER", "secondary": "SHITPOSTER" },
             weight: 1.5
           },
           {
@@ -359,7 +359,7 @@ export interface ArchetypeScore {
           },
           {
             text: "Crypto conferences suck.  My flight was canceled. Pigs fly... ",
-            archetypes: { primary: "BUILDER", secondary: "PANIC_SELLER" },
+            archetypes: { primary: "SHITPOSTER", secondary: "BUILDER" },
             weight: 1
           },
           {
